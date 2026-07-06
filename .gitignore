@@ -1,0 +1,30 @@
+# ---------- Python ----------
+venv/
+__pycache__/
+*.py[cod]
+
+# Environment variables
+.env
+oiyu/.env
+
+# ---------- ML ----------
+crop_quality_detector_model.keras
+
+# Dataset
+cropdataset/
+cropdataset.zip
+
+# ---------- React / Vite ----------
+oiyu/node_modules/
+oiyu/dist/
+
+# Logs
+*.log
+
+# OS files
+.DS_Store
+Thumbs.db
+
+# IDE
+.vscode/
+.idea/
